@@ -1,0 +1,26 @@
+name: Auto_Sync_Fork
+on:
+  schedule:
+     # 使用定时触发，每90分钟进行一次同步
+    - cron:  '*/90 * * * *'
+  workflow_dispatch:
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge upstream
+        run: |
+          git config --global user.name 'Mundanity-fc'
+          git config --global user.email 'Mundanity-fc@users.noreply.github.com'
+          git pull --unshallow
+          # 定义上游
+          git remote add upstream https://github.com/karashiiro/FFXIVOpcodes.git
+          # 获取上游
+          git fetch upstream
+          # 与 fork 分支进行比较
+          git checkout fork
+          # 合并上游 master 分支
+          git merge upstream/master
+          # 递交更改
+          git push origin fork
