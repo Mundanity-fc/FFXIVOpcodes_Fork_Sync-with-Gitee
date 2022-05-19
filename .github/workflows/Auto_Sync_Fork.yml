@@ -2,7 +2,7 @@ name: Auto_Sync_Fork
 on:
   schedule:
      # 时间触发
-    - cron:  '0 */4 * *'
+    - cron:  '30 */4 * * *'
   workflow_dispatch:
 jobs:
   merge:
