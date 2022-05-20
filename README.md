@@ -13,6 +13,7 @@ The fork branch contains the copy of upstream.
 Update: A Chinese domestic organization has provided a same mirror for TC, this repo will be suspended.
 
 [Reference](https://github.com/ffxiv-teamcraft/pcap-ffxiv/pull/31)
+
 ---
 
 # FFXIVOpcodes 的Gitee同步仓库
@@ -26,7 +27,7 @@ Update: A Chinese domestic organization has provided a same mirror for TC, this 
   - Gitee 不一定保证未来可靠。2022 年 5 月 18 日，Gitee 更新了其开源政策，仓库所有者需要保证仓库内容合法合规后才可转变为公开仓库。目前这一政策对未来 raw 文件获取的影响未知。
   - 采用 Github Action 的定时计划势必会有同步上的延迟，未来上游的更新可能无法即时反映到 Gitee 当中。（目前 Workflow 设置的是每四小时的三十分进行一次同步抓取）。
  
-参见[本条issue](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/issues/2262)。
+参见本条 [issue](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/issues/2262)。
 
 更新：鉴于已有国内备案注册站点提供镜像服务，本 repo 暂停工作，尽供参考。
 
