@@ -10,6 +10,9 @@ The main branch contains the Github Action files with will sync this repo automa
 
 The fork branch contains the copy of upstream.
 
+Update: A Chinese domestic organization has provided a same mirror for TC, this repo will be suspended.
+
+[Reference](https://github.com/ffxiv-teamcraft/pcap-ffxiv/pull/31)
 ---
 
 # FFXIVOpcodes 的Gitee同步仓库
@@ -24,3 +27,7 @@ The fork branch contains the copy of upstream.
   - 采用 Github Action 的定时计划势必会有同步上的延迟，未来上游的更新可能无法即时反映到 Gitee 当中。（目前 Workflow 设置的是每四小时的三十分进行一次同步抓取）。
  
 参见[本条issue](https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/issues/2262)。
+
+更新：鉴于已有国内备案注册站点提供镜像服务，本 repo 暂停工作，尽供参考。
+
+相见此条 [issuee](https://github.com/ffxiv-teamcraft/pcap-ffxiv/pull/31)
